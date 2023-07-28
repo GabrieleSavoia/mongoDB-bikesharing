@@ -1,0 +1,486 @@
+[
+  {
+      "_id": "t1",
+      "car_id": "c1",
+      "car_brand": "bmw",
+      "user_id": "u1",
+      "username": "username1",
+      "user_sex": "male",
+      "typology_travel": "work",
+      "start_coord": { "type": "Point", 
+                      "coordinates": [10.911969, 44.623007] 
+                    },
+      "end_coord": { "type": "Point", 
+                    "coordinates": [10.946195, 44.631041] 
+                  },
+      "total_cost": 44.0,
+      "total_km": 13,
+      "start_date": 1635757200, 
+      "end_date": 1635760800,
+      "total_time_minute": 60,
+      "stops": [ {"coord": 
+                    { "type": "Point", 
+                      "coordinates": [10.929042, 44.625857] 
+                    }, 
+                  "time_minute": 10 
+                }
+              ],
+      "trouble_detected": { "low_oil": { "time": 1635758100 },
+                            "engine_problem": { "time": 1635759000, "detail": "Engine problem log"},
+                            "impact": {"time": 1635759900 }
+                          },
+      "feedback" : { "find_car_difficulty": 3,
+                    "service_eval": 4,
+                    "value_for_money": 2
+                  }
+  },
+  {
+    "_id": "t2",
+    "car_id": "c2",
+    "car_brand": "mercedes",
+    "user_id": "u1",
+    "username": "username1",
+    "user_sex": "male",
+    "typology_travel": "work",
+    "start_coord": { "type": "Point", 
+                    "coordinates": [10.911779, 44.624845] 
+                  },
+    "end_coord": { "type": "Point", 
+                  "coordinates": [10.948654, 44.630752] 
+                },
+    "total_cost": 34.0,
+    "total_km": 16,
+    "start_date": 1635872400, 
+    "end_date": 1635876900,
+    "total_time_minute": 75,
+    "stops": [ {"coord": 
+                  { "type": "Point", 
+                    "coordinates": [10.929042, 44.625857] 
+                  }, 
+                "time_minute": 6 
+              },
+              {"coord": 
+                { "type": "Point", 
+                  "coordinates": [10.929042, 44.625857] 
+                }, 
+              "time_minute": 12 
+              }
+            ],
+    "trouble_detected": { "engine_problem": { "time": 1635759000, "detail": "Engine problem log"}
+                        },
+    "feedback" : { "find_car_difficulty": 4,
+                  "service_eval": 4,
+                  "value_for_money": 4
+                }
+  },
+  {
+    "_id": "t3",
+    "car_id": "c3",
+    "car_brand": "pejeout",
+    "user_id": "u2",
+    "username": "username2",
+    "user_sex": "female",
+    "typology_travel": "study",
+    "start_coord": { "type": "Point", 
+                    "coordinates": [10.913088, 44.624474] 
+                  },
+    "end_coord": { "type": "Point", 
+                  "coordinates": [10.948658, 44.632430] 
+                },
+    "total_cost": 35.0,
+    "total_km": 23,
+    "start_date": 1635963300, 
+    "end_date": 1635969600,
+    "total_time_minute": 105,
+    "stops": [],
+    "trouble_detected": {},
+    "feedback" : { "find_car_difficulty": 3,
+                  "service_eval": 3,
+                  "value_for_money": 3
+                }
+  },
+  {
+    "_id": "t4",
+    "car_id": "c4",
+    "car_brand": "bmw",
+    "user_id": "u2",
+    "username": "username2",
+    "user_sex": "female",
+    "typology_travel": "work",
+    "start_coord": { "type": "Point", 
+                    "coordinates": [10.910604, 44.624068] 
+                  },
+    "end_coord": { "type": "Point", 
+                  "coordinates": [10.937894, 44.630259] 
+                },
+    "total_cost": 43.0,
+    "total_km": 16,
+    "start_date": 1636016400, 
+    "end_date": 1636020000,
+    "total_time_minute": 60,
+    "stops": [ {"coord": 
+                  { "type": "Point", 
+                    "coordinates": [10.929042, 44.625857] 
+                  }, 
+                "time_minute": 3
+              }
+            ],
+    "trouble_detected": { "engine_problem": { "time": 1635759000, "detail": "Engine problem log"}
+                        },
+    "feedback" : { "find_car_difficulty": 2,
+                  "service_eval": 5,
+                  "value_for_money": 3
+                }
+  },
+  {
+    "_id": "t5",
+    "car_id": "c5",
+    "car_brand": "tesla",
+    "user_id": "u3",
+    "username": "username3",
+    "user_sex": "female",
+    "typology_travel": "study",
+    "start_coord": { "type": "Point", 
+                    "coordinates": [10.914902, 44.621826] 
+                  },
+    "end_coord": { "type": "Point", 
+                  "coordinates": [10.937036, 44.637964] 
+                },
+    "total_cost": 79.0,
+    "total_km": 33,
+    "start_date": 1636102800, 
+    "end_date": 1636106400,
+    "total_time_minute": 60,
+    "stops": [ {"coord": 
+                  { "type": "Point", 
+                    "coordinates": [10.929042, 44.625857] 
+                  }, 
+                "time_minute": 33
+              }
+            ],
+    "trouble_detected": {},
+    "feedback" : { "find_car_difficulty": 4,
+                  "service_eval": 5,
+                  "value_for_money": 3
+                }
+  },
+  {
+    "_id": "t6",
+    "car_id": "c6",
+    "car_brand": "tesla",
+    "user_id": "u3",
+    "username": "username3",
+    "user_sex": "female",
+    "typology_travel": "work",
+    "start_coord": { "type": "Point", 
+                    "coordinates": [10.910535, 44.620950] 
+                  },
+    "end_coord": { "type": "Point", 
+                  "coordinates": [10.952919, 44.638085] 
+                },
+    "total_cost": 89.0,
+    "total_km": 58,
+    "start_date": 1636189200, 
+    "end_date": 1636192800,
+    "total_time_minute": 60,
+    "stops": [],
+    "trouble_detected": {},
+    "feedback" : { "find_car_difficulty": 5,
+                  "service_eval": 3,
+                  "value_for_money": 2
+                }
+  },
+  {
+    "_id": "t7",
+    "car_id": "c7",
+    "car_brand": "maserati",
+    "user_id": "u1",
+    "username": "username1",
+    "user_sex": "male",
+    "typology_travel": "work",
+    "start_coord": { "type": "Point", 
+                    "coordinates": [10.911129, 44.623271] 
+                  },
+    "end_coord": { "type": "Point", 
+                  "coordinates": [10.925842, 44.637401] 
+                },
+    "total_cost": 136.0,
+    "total_km": 56,
+    "start_date": 1636279200, 
+    "end_date": 1636282800,
+    "total_time_minute": 60,
+    "stops": [ {"coord": 
+                  { "type": "Point", 
+                    "coordinates": [10.929042, 44.625857] 
+                  }, 
+                "time_minute": 12
+              }
+            ],
+    "trouble_detected": { "engine_problem": { "time": 1635759000, "detail": "Engine problem log"}
+                        },
+    "feedback" : { "find_car_difficulty": 2,
+                  "service_eval": 5,
+                  "value_for_money": 3
+                }
+  },
+  {
+    "_id": "t8",
+    "car_id": "c8",
+    "car_brand": "porsche",
+    "user_id": "u2",
+    "username": "username2",
+    "user_sex": "female",
+    "typology_travel": "work",
+    "start_coord": { "type": "Point", 
+                    "coordinates": [10.918481, 44.620822] 
+                  },
+    "end_coord": { "type": "Point", 
+                  "coordinates": [10.924309, 44.629666] 
+                },
+    "total_cost": 123.0,
+    "total_km": 46,
+    "start_date": 1636372800, 
+    "end_date": 1636376400,
+    "total_time_minute": 60,
+    "stops": [],
+    "trouble_detected": {},
+    "feedback" : { "find_car_difficulty": 4,
+                  "service_eval": 4,
+                  "value_for_money": 4
+                }
+  },
+  {
+    "_id": "t9",
+    "car_id": "c9",
+    "car_brand": "toyota",
+    "user_id": "u1",
+    "username": "username1",
+    "user_sex": "male",
+    "typology_travel": "work",
+    "start_coord": { "type": "Point", 
+                    "coordinates": [10.916519, 44.622484] 
+                  },
+    "end_coord": { "type": "Point", 
+                  "coordinates": [10.945246, 44.634025] 
+                },
+    "total_cost": 55.0,
+    "total_km": 20,
+    "start_date": 1635771600, 
+    "end_date": 1635775200,
+    "total_time_minute": 60,
+    "stops": [ {"coord": 
+                  { "type": "Point", 
+                    "coordinates": [10.929042, 44.625857] 
+                  }, 
+                "time_minute": 12
+              }
+            ],
+    "trouble_detected": { "engine_problem": { "time": 1635759000, "detail": "Engine problem log"}
+                        },
+    "feedback" : { "find_car_difficulty": 2,
+                  "service_eval": 5,
+                  "value_for_money": 3
+                }
+  },
+  {
+    "_id": "t10",
+    "car_id": "c10",
+    "car_brand": "fiat",
+    "user_id": "u2",
+    "username": "username2",
+    "user_sex": "female",
+    "typology_travel": "work",
+    "start_coord": { "type": "Point", 
+                    "coordinates": [10.913202, 44.620350] 
+                  },
+    "end_coord": { "type": "Point", 
+                  "coordinates": [10.936578, 44.644167] 
+                },
+    "total_cost": 33.0,
+    "total_km": 24,
+    "start_date": 1635778800, 
+    "end_date": 1635782400,
+    "total_time_minute": 70,
+    "stops": [],
+    "trouble_detected": {},
+    "feedback" : { "find_car_difficulty": 2,
+                  "service_eval": 5,
+                  "value_for_money": 3
+                }
+  },
+  {
+    "_id": "t11",
+    "car_id": "c1",
+    "car_brand": "bmw",
+    "user_id": "u1",
+    "username": "username1",
+    "user_sex": "male",
+    "typology_travel": "work",
+    "start_coord": { "type": "Point", 
+                    "coordinates": [10.903128, 44.624728] 
+                  },
+    "end_coord": { "type": "Point", 
+                  "coordinates": [10.911969, 44.623007] 
+                },
+    "total_cost": 78.0,
+    "total_km": 37,
+    "start_date": 1635796800, 
+    "end_date": 1635800400,
+    "total_time_minute": 60,
+    "stops": [ {"coord": 
+                  { "type": "Point", 
+                    "coordinates": [10.929042, 44.625857] 
+                  }, 
+                "time_minute": 12
+              }
+            ],
+    "trouble_detected": {},
+    "feedback" : { "find_car_difficulty": 4,
+                  "service_eval": 1,
+                  "value_for_money": 3
+                }
+  },
+  {
+    "_id": "t12",
+    "car_id": "c2",
+    "car_brand": "mercedes",
+    "user_id": "u1",
+    "username": "username1",
+    "user_sex": "male",
+    "typology_travel": "work",
+    "start_coord": { "type": "Point", 
+                    "coordinates": [10.903653, 44.625188] 
+                  },
+    "end_coord": { "type": "Point", 
+                  "coordinates": [10.911779, 44.624845] 
+                },
+    "total_cost": 50.0,
+    "total_km": 18,
+    "start_date": 1635858000, 
+    "end_date": 1635861600,
+    "total_time_minute": 60,
+    "stops": [],
+    "trouble_detected": {},
+    "feedback" : { "find_car_difficulty": 4.5,
+                  "service_eval": 3,
+                  "value_for_money": 2
+                }
+  },
+  {
+    "_id": "t13",
+    "car_id": "c3",
+    "car_brand": "pejeout",
+    "user_id": "u3",
+    "username": "username3",
+    "user_sex": "female",
+    "typology_travel": "work",
+    "start_coord": { "type": "Point", 
+                    "coordinates": [10.906154, 44.626499] 
+                  },
+    "end_coord": { "type": "Point", 
+                  "coordinates": [10.913088, 44.624474] 
+                },
+    "total_cost": 44.0,
+    "total_km": 23,
+    "start_date": 1636030800, 
+    "end_date": 1636034400,
+    "total_time_minute": 60,
+    "stops": [],
+    "trouble_detected": {},
+    "feedback" : { "find_car_difficulty": 1,
+                  "service_eval": 1,
+                  "value_for_money": 1
+                }
+  },
+  {
+    "_id": "t14",
+    "car_id": "c4",
+    "car_brand": "bmw",
+    "user_id": "u1",
+    "username": "username1",
+    "user_sex": "male",
+    "typology_travel": "work",
+    "start_coord": { "type": "Point", 
+                    "coordinates": [10.901728, 44.628207] 
+                  },
+    "end_coord": { "type": "Point", 
+                  "coordinates": [10.910604, 44.624068] 
+                },
+    "total_cost": 89.0,
+    "total_km": 67,
+    "start_date": 1636207200, 
+    "end_date": 1636210800,
+    "total_time_minute": 60,
+    "stops": [ {"coord": 
+                  { "type": "Point", 
+                    "coordinates": [10.929042, 44.625857] 
+                  }, 
+                "time_minute": 20
+              }
+            ],
+    "trouble_detected": { "engine_problem": { "time": 1635759000, "detail": "Engine problem log"}
+                        },
+    "feedback" : { "find_car_difficulty": 3,
+                  "service_eval": 3,
+                  "value_for_money": 2
+                }
+  },
+  {
+    "_id": "t15",
+    "car_id": "c5",
+    "car_brand": "tesla",
+    "user_id": "u3",
+    "username": "username3",
+    "user_sex": "female",
+    "typology_travel": "work",
+    "start_coord": { "type": "Point", 
+                    "coordinates": [10.898330, 44.623193] 
+                  },
+    "end_coord": { "type": "Point", 
+                  "coordinates": [10.914902, 44.621826] 
+                },
+    "total_cost": 37.0,
+    "total_km": 12,
+    "start_date": 1636297200, 
+    "end_date": 1636300800,
+    "total_time_minute": 60,
+    "stops": [],
+    "trouble_detected": {},
+    "feedback" : { "find_car_difficulty": 4,
+                  "service_eval": 5,
+                  "value_for_money": 3
+                }
+  },
+  {
+    "_id": "t16",
+    "car_id": "c2",
+    "car_brand": "pejeout",
+    "user_id": "u2",
+    "username": "username2",
+    "user_sex": "female",
+    "typology_travel": "work",
+    "start_coord": { "type": "Point", 
+                    "coordinates": [10.903583, 44.627749] 
+                  },
+    "end_coord": { "type": "Point", 
+                  "coordinates": [10.900369, 44.625300] 
+                },
+    "total_cost": 12.0,
+    "total_km": 9,
+    "start_date": 1635998400, 
+    "end_date": 1636002000,
+    "total_time_minute": 60,
+    "stops": [ {"coord": 
+                  { "type": "Point", 
+                    "coordinates": [10.929042, 44.625857] 
+                  }, 
+                "time_minute": 20
+               }
+             ],
+    "trouble_detected": {},
+    "feedback" : { "find_car_difficulty": 2,
+                  "service_eval": 1,
+                  "value_for_money": 1
+                }
+  }
+]

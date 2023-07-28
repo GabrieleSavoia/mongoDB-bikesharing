@@ -1,0 +1,324 @@
+[
+  {
+      "_id": "c1",
+      "license_plate": "lp1",
+      "brand": "bmw",
+      "model": "x5",
+      "color": "black",
+      "seats": 5,
+      "year": 2020,
+      "cost_per_km": 3,
+      "tags": [ "suv", "diesel" ],
+      "description": "Fantastic and confortable car",
+      "similar": [ "c4", "c2" ],
+      "available": true,
+      "current_coord": { "type": "Point", 
+                        "coordinates": [10.946195, 44.631041] 
+                      },
+      "km_autonomy": 700,
+      "avg_review": 4,
+      "total_review": 2,
+      "reviews": [ { "reviewer_id": "u1", 
+                    "text": "Very good car",
+                    "date": 1635768000,
+                    "vote": 5 
+                  },
+                  { "reviewer_id": "u2", 
+                    "text": "Low quality car",
+                    "date": 1635771600,
+                    "vote": 3 
+                  }
+                ]
+  },
+  {
+    "_id": "c2",
+    "license_plate": "lp2",
+    "brand": "mercedes",
+    "model": "gle",
+    "color": "white",
+    "seats": 4,
+    "year": 2005,
+    "cost_per_km": 3.1,
+    "tags": [ "suv", "diesel" ],
+    "description": "Perfect car for long travels",
+    "similar": [ "c1", "c4" ],
+    "available": true,
+    "current_coord": {
+                      "type": "Point",
+                      "coordinates": [10.948654, 44.630752]
+                    },
+    "km_autonomy": 130,
+    "avg_review": 2.5,
+    "total_review": 2,
+    "reviews": [ {"reviewer_id": "u3", 
+                  "text": "Old car",
+                  "date": 1635854400,
+                  "vote": 3
+                },
+                {"reviewer_id": "u1", 
+                  "text": "Problematic car",
+                  "date": 1635858000,
+                  "vote": 2
+                }
+              ] 
+  },
+  {
+    "_id": "c3",
+    "license_plate": "lp3",
+    "brand": "pejeout",
+    "model": "208",
+    "color": "yellow",
+    "seats": 5,
+    "year": 2021,
+    "cost_per_km": 2.4,
+    "tags": [ "city_car", "petrol" ],
+    "description": "City car easy very nice",
+    "similar": [ "c9", "c10" ],
+    "available": true,
+    "current_coord": {
+                      "type": "Point",
+                      "coordinates": [10.948658, 44.632430]
+                    },
+    "km_autonomy": 563,
+    "avg_review": 4.5,
+    "total_review": 2,
+    "reviews": [ {"reviewer_id": "u2", 
+                  "text": "Perfect car for city travel",
+                  "date": 1635955200,
+                  "vote": 5
+                },
+                {"reviewer_id": "u4", 
+                  "text": "Very nice car",
+                  "date": 1635966000,
+                  "vote": 4
+                }
+              ] 
+  },
+  {
+    "_id": "c4",
+    "license_plate": "lp4",
+    "brand": "bmw",
+    "model": "x4",
+    "color": "white",
+    "seats": 5,
+    "year": 2019,
+    "cost_per_km": 2.9,
+    "tags": [ "suv", "diesel" ],
+    "description": "Elegant and beautiful car",
+    "similar": [ "c1", "c2" ],
+    "available": true,
+    "current_coord": {
+                      "type": "Point",
+                      "coordinates": [10.937894, 44.630259]
+                    },
+    "km_autonomy": 639,
+    "avg_review": 4,
+    "total_review": 2,
+    "reviews": [ {"reviewer_id": "u5", 
+                  "text": "Very nice but interior ",
+                  "date": 1636052400,
+                  "vote": 4
+                },
+                {"reviewer_id": "u7", 
+                  "text": "Very nice car",
+                  "date": 1636066800,
+                  "vote": 4
+                }
+              ] 
+  },
+  {
+    "_id": "c5",
+    "license_plate": "lp5",
+    "brand": "tesla",
+    "model": "models",
+    "color": "grey",
+    "seats": 5,
+    "year": 2021,
+    "cost_per_km": 3.2,
+    "tags": [ "electric" ],
+    "description": "Perfect city car",
+    "similar": [ "c6"],
+    "available": true,
+    "current_coord": {
+                      "type": "Point",
+                      "coordinates": [10.937036, 44.637964]
+                    },
+    "km_autonomy": 265,
+    "avg_review": 5,
+    "total_review": 2,
+    "reviews": [ {"reviewer_id": "u1", 
+                  "text": "Really good", 
+                  "date": 1636102800,
+                  "vote": 5},
+                {"reviewer_id": "u9", 
+                  "text": "Very tecnological car",
+                  "date": 1636131600,
+                  "vote": 5}
+              ] 
+  },
+  {
+    "_id": "c6",
+    "license_plate": "lp6",
+    "brand": "tesla",
+    "model": "modelx",
+    "color": "black",
+    "seats": 5,
+    "year": 2020,
+    "cost_per_km": 3.3,
+    "tags": [ "electric" ],
+    "description": "Electric city car",
+    "similar": [ "c5"],
+    "available": true,
+    "current_coord": {
+                      "type": "Point",
+                      "coordinates": [10.952919, 44.638085]
+                    },
+    "km_autonomy": 461,
+    "avg_review": 1,
+    "total_review": 1,
+    "reviews": [ {"reviewer_id": "u3", 
+                    "text": "Bad", 
+                    "date": 1636135200,
+                    "vote": 1
+                  },
+                  {"reviewer_id": "u1", 
+                    "text": "Good car but i don't like electirc", 
+                    "date": 1636135455,
+                    "vote": 2.5
+                  }
+                ]
+  },
+  {
+    "_id": "c7",
+    "license_plate": "lp7",
+    "brand": "maserati",
+    "model": "gt",
+    "color": "blue",
+    "seats": 2,
+    "year": 2018,
+    "cost_per_km": 4.6,
+    "tags": [ "luxury", "petrol", "sport_car" ],
+    "description": "Sport car",
+    "similar": [ "c6"],
+    "available": true,
+    "current_coord": {
+                      "type": "Point",
+                      "coordinates": [10.925842, 44.637401]
+                    },
+    "km_autonomy": 97,
+    "avg_review": 5,
+    "total_review": 2,
+    "reviews": [ {"reviewer_id": "u21", 
+                  "text": "Fantastic",
+                  "date": 1636232400,
+                  "vote": 5
+                },
+                {"reviewer_id": "u14", 
+                  "text": "Beautiful", 
+                  "date": 1636236000,
+                  "vote": 5
+                }
+              ] 
+  },
+  {
+    "_id": "c8",
+    "license_plate": "lp8",
+    "brand": "porsche",
+    "model": "911",
+    "color": "red",
+    "seats": 2,
+    "year": 2019,
+    "cost_per_km": 4.9,
+    "tags": [ "luxury", "petrol", "sport_car" ],
+    "description": "High performace car",
+    "similar": [ "c7"],
+    "available": true,
+    "current_coord": {
+                      "type": "Point",
+                      "coordinates": [10.924309, 44.629666]
+                    },
+    "km_autonomy": 843,
+    "avg_review": 3,
+    "total_review": 1,
+    "reviews": [ {"reviewer_id": "u21", 
+                  "text": "Too expansive car",
+                  "date": 1636268400,
+                  "vote": 3
+                }
+              ] 
+  },
+  {
+    "_id": "c9",
+    "license_plate": "lp9",
+    "brand": "toyota",
+    "model": "yaris",
+    "color": "black",
+    "seats": 5,
+    "year": 2016,
+    "cost_per_km": 2.2,
+    "tags": [ "city_car", "diesel" ],
+    "description": "Small and nice car",
+    "similar": [ "c10", "c3" ],
+    "available": true,
+    "current_coord": {
+                      "type": "Point",
+                      "coordinates": [10.945246, 44.634025]
+                    },
+    "km_autonomy": 213,
+    "avg_review": 3.5,
+    "total_review": 3,
+    "reviews": [ {"reviewer_id": "u8", 
+                  "text": "Nice car",
+                  "date": 1636326000,
+                  "vote": 4
+                },
+                {"reviewer_id": "u21", 
+                  "text": "Easy find car park",
+                  "date": 1636362000,
+                  "vote": 4.5
+                },
+                {"reviewer_id": "u54", 
+                  "text": "Problem with motor",
+                  "date": 1636383600,
+                  "vote": 2
+                }
+              ] 
+  },
+  {
+    "_id": "c10",
+    "license_plate": "lp10",
+    "brand": "fiat",
+    "model": "500",
+    "color": "white",
+    "seats": 4,
+    "year": 2013,
+    "cost_per_km": 1.9,
+    "tags": [ "city_car", "petrol" ],
+    "description": "Usefull car in city context",
+    "similar": [ "c9", "c3" ],
+    "available": true,
+    "current_coord": {
+                      "type": "Point",
+                      "coordinates": [10.936578, 44.644167]
+                    },
+    "km_autonomy": 533,
+    "avg_review": 4,
+    "total_review": 3,
+    "reviews": [ {"reviewer_id": "u2", 
+                  "text": "Small and nice",
+                  "date": 1636448400,
+                  "vote": 4.5
+                },
+                {"reviewer_id": "u21", 
+                  "text": "Too small",
+                  "date": 1636470000,
+                  "vote": 2.5
+                },
+                {"reviewer_id": "u7", 
+                  "text": "Perfect for city",
+                  "date": 1636488000,
+                  "vote": 5
+                }
+              ] 
+  }
+]
